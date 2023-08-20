@@ -59,7 +59,7 @@ jobs:
           context: ./scripts
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: fayras/envbuilder:latest
+          tags: ghcr.io/fayras/envbuilder:latest
 
       # - name: Push
       #   run: |
